@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="description" content="Website giới thiệu THPT Phú Nhuận, TP. Hồ Chí Minh.">
 <title>THPT Phú Nhuận | Giới thiệu trường</title>
-<link rel="preconnect" href="https://images.unsplash.com"><link rel="stylesheet" href="style.css?v=3">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 <div id="loader"><div class="loader-mark">PN</div><div class="loader-line"><span></span></div><p>ĐANG KHỞI ĐỘNG...</p></div>
 <div class="cursor-dot"></div><div class="cursor-ring"></div>
+
 <header id="header">
   <a class="logo" href="#top"><span>THPT</span> PHÚ NHUẬN</a>
   <button id="menu" aria-label="Mở menu">☰</button>
   <nav>
-    <a class="active" href="#gioi-thieu">Giới thiệu</a><a href="#hoat-dong">Hoạt động</a><a href="#thanh-tich">Dấu ấn</a><a href="#lien-he">Kết nối</a>
+    <a class="active" href="#gioi-thieu">Giới thiệu</a>
+    <a href="#hoat-dong">Hoạt động</a>
+    <a href="#thanh-tich">Dấu ấn</a>
+    <a href="#lien-he">Kết nối</a>
   </nav>
 </header>
+
 <main id="top">
 <section class="hero" id="home">
-  <div class="hero-glow"></div><div class="particles"></div>
+  <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div><div class="particles"></div>
   <div class="hero-content reveal">
     <p class="eyebrow">TRƯỜNG THPT PHÚ NHUẬN · TP. HỒ CHÍ MINH</p>
     <h1>Nơi tri thức<br><em>khơi nguồn tương lai</em></h1>
@@ -28,7 +37,7 @@
   <div class="scroll-hint"><span></span> CUỘN ĐỂ KHÁM PHÁ</div>
 </section>
 
-<section id="gioi-thieu">
+<section id="gioi-thieu" class="intro-section">
   <div class="section-head reveal"><div><p class="eyebrow">01 · GIỚI THIỆU</p><h2>Ngôi trường của<br><span>tri thức và tuổi trẻ.</span></h2></div><p class="section-intro">Giáo dục không chỉ là kiến thức. Đó còn là hành trình hình thành tư duy, nhân cách và khát vọng vươn lên.</p></div>
   <div class="grid">
     <article class="info-card reveal tilt"><div class="card-number">01</div><h3>Môi trường học tập</h3><p>Hướng đến không gian học tập tích cực, kỷ luật và giàu tính sáng tạo.</p><div class="arrow">↗</div></article>
@@ -37,7 +46,7 @@
   </div>
 </section>
 
-<section id="hoat-dong" class="dark">
+<section id="hoat-dong" class="dark activity-section">
   <div class="section-head reveal"><div><p class="eyebrow">02 · HOẠT ĐỘNG</p><h2>Học tập · Trải nghiệm · <span>Cống hiến.</span></h2></div><p class="section-intro">Mỗi hoạt động là một cơ hội để học sinh bước ra khỏi lớp học và trưởng thành từ trải nghiệm thực tế.</p></div>
   <div class="cards">
     <article class="activity-card reveal tilt"><div class="icon">⌁</div><h3>Học thuật</h3><p>Khơi dậy tinh thần tự học, tư duy phản biện và niềm say mê chinh phục tri thức.</p><a href="#lien-he">Tìm hiểu <b>↗</b></a></article>
@@ -46,8 +55,8 @@
   </div>
 </section>
 
-<section id="thanh-tich">
-  <div class="section-head reveal"><div><p class="eyebrow">03 · DẤU ẤN</p><h2>Những bước tiến<br><span>đáng tự hào.</span></h2></div></div>
+<section id="thanh-tich" class="achievement-section">
+  <div class="section-head reveal"><div><p class="eyebrow">03 · DẤU ẤN</p><h2>Những bước tiến<br><span>đáng tự hào.</span></h2></div><p class="section-intro">Mỗi thế hệ để lại một dấu ấn, góp phần tạo nên hành trình phát triển của nhà trường.</p></div>
   <div class="stats">
     <article class="stat reveal"><strong data-count="01">00</strong><span>Truyền thống học tập</span><small>Nền tảng tri thức</small></article>
     <article class="stat reveal"><strong data-count="02">00</strong><span>Hoạt động phong trào</span><small>Học sinh chủ động</small></article>
@@ -59,6 +68,8 @@
   <div class="contact-inner reveal"><div><p class="eyebrow">04 · KẾT NỐI</p><h2>THPT<br><span>PHÚ NHUẬN</span></h2></div><div class="contact-copy"><p>Website giới thiệu tổng quan về nhà trường. Nội dung liên hệ và thông tin chính thức có thể được cập nhật theo nguồn của nhà trường.</p><a class="btn magnetic" href="#home">Về đầu trang ↑</a></div></div>
 </section>
 </main>
+
 <footer><span>© 2026 THPT PHÚ NHUẬN</span><span>WEBSITE GIỚI THIỆU · MADE WITH PASSION</span></footer>
-<script src="script.js?v=3"></script>
-</body></html>
+<script src="script.js?v=4"></script>
+</body>
+</html>
